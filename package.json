@@ -20,9 +20,7 @@
         "pdbcachegen": "bedrock_server\\pdbcachegen.exe \"./bedrock_server/bedrock_server.exe\" \"./bedrock_server/pdbcache.bin\""
     },
     "dependencies": {
-        "@bdsx/anticrasher": "^1.2.2",
         "@bdsx/backup": "^1.1.0",
-        "@bdsx/ping": "^1.1.9",
         "@bdsx/tps": "^1.0.0",
         "bdsx": "file:bdsx",
         "blessed": "^0.1.81",
