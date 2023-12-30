@@ -17,3 +17,4 @@ node_modules
 !/bdsx/checkgate.js
 !/bdsx/asm/asmcode.js
 banlist.json
+plugins/ada_anticheat/*
