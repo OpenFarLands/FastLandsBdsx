@@ -95,9 +95,9 @@ const banCmd = (
             dp.dispose();
         }
 
-        output.addMessage("Player has been banned!");
+        output.success("Player has been banned!");
     } else {
-        output.addMessage("Player is already banned!");
+        output.error("Player is already banned!");
     }
 };
 
@@ -134,9 +134,9 @@ events.serverOpen.on(() => {
             let target = param.player.getName();
 
             if (db.removeBanned(target)) {
-                output.addMessage("Player has been unbanned!");
+                output.success("Player has been unbanned!");
             } else {
-                output.addMessage("Player isn't banned!");
+                output.error("Player isn't banned!");
             }
         },
         { player: PlayerCommandSelector },

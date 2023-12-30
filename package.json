@@ -35,7 +35,8 @@
     "ts-node": "^10.4.0",
     "tslib": "^2.3.1",
     "typescript": "^5.2.2",
-    "unzipper": "^0.10.11"
+    "unzipper": "^0.10.11",
+    "@bdsx/core": "file:plugins/core"
   },
   "devDependencies": {
     "@actions/core": "^1.10.0",
