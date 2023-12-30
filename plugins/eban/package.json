@@ -1,6 +1,6 @@
 {
   "name": "eban",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Ban system based on ClientID",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,6 @@
   "author": "mikhaillav",
   "license": "GPL-3.0",
   "dependencies": {
-    "watch": "^1.0.2"
+    "watch": "^0.13.0"
   }
 }

@@ -16,4 +16,4 @@ node_modules
 !/bdsx/netevent.js
 !/bdsx/checkgate.js
 !/bdsx/asm/asmcode.js
-/plugin-example/package-lock.json
+banlist.json
