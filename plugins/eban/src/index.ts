@@ -102,8 +102,6 @@ const banCmd = (
 };
 
 events.serverOpen.on(() => {
-    db.init();
-
     command
         .register("ban", "ban a player", CommandPermissionLevel.Operator)
         .overload(
