@@ -55,6 +55,10 @@ events.serverOpen.on(() => {
     }, {});
 });
 
+events.packetSend(MinecraftPacketIds.StartGame).on(packet => {
+    packet.settings.seed = 30;
+});
+
 const interval = setInterval(() => {
     if (bedrockServer.isClosed()) {
         clearInterval(interval);
