@@ -22,15 +22,22 @@ if %errorlevel% equ 2 (
     rmdir /s /q .\node_modules
     call update.bat
     goto _loop
-) else if %errorlevel% neq 1 (
-    goto _end
 )
+
+rem renameMap
+node renameMap.js
 
 rem launch
 cd bedrock_server
 bedrock_server.exe ..
 echo exit=%errorlevel% >>bdsx_shell_data.ini
 cd ..
+
+@echo. 
+@echo. --------------------------------
+@echo.             restart
+@echo. --------------------------------
+@echo. 
 
 rem loop end
 goto _loop

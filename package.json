@@ -36,7 +36,9 @@
     "tslib": "^2.3.1",
     "typescript": "^5.2.2",
     "unzipper": "^0.10.11",
-    "@bdsx/core": "file:plugins/core"
+    "@bdsx/core": "file:plugins/core",
+    "@bdsx/ada_anticheat": "file:plugins/ada_anticheat",
+    "@bdsx/border": "file:plugins/border"
   },
   "devDependencies": {
     "@actions/core": "^1.10.0",

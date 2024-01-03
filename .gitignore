@@ -18,3 +18,5 @@ node_modules
 !/bdsx/asm/asmcode.js
 banlist.json
 plugins/ada_anticheat/
+timeAfterGame.txt
+ada_anticheat.json
